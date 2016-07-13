@@ -26,7 +26,7 @@ html {
 }
 body {
 	color: initial;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 ul {
 	margin: 0;
@@ -43,7 +43,7 @@ a:hover {
   color: #cccccc;
 }
 p {
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 *:focus {
 	outline: none;
@@ -75,38 +75,10 @@ button:hover {
 .no-gutter-right {
 	padding-right: 0;
 }
-.col-xs-5ths,
-.col-sm-5ths,
-.col-md-5ths,
-.col-lg-5ths {
-	position: relative;
-  min-height: 1px;
-  padding-right: .9375rem;
-  padding-left: .9375rem;	
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0;
+	line-height: 1;
 }
-.col-xs-5ths {
-  width: 20%;
-  float: left;
-}
-@media (min-width: 768px) {
-  .col-sm-5ths {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 992px) {
-  .col-md-5ths {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 1200px) {
-  .col-lg-5ths {
-    width: 20%;
-    float: left;
-  }
-}
-
 
 /****************************************************
 **                                                 **
@@ -238,6 +210,177 @@ button:hover {
 	padding-right: 30px;
 	padding-left: 30px;
 }
+@media screen and (max-width: 1200px) {
+	.cs-xl-both-section {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.cs-xl-section {
+		margin-bottom: 30px;
+	}
+	.cs-xl-both-sub-section {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.cs-xl-sub-section {
+		margin-bottom: 15px;
+	}
+	.cs-xl-both-seperation {
+		padding-bottom: 30px;
+		padding-top: 30px;	
+	}
+	.cs-xl-seperation {
+		padding-bottom: 30px;
+	}
+	.cs-xl-both-sub-seperation {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.cs-xl-sub-seperation {
+		padding-bottom: 15px;
+	}
+	.cs-xl-sub-fullpage-pad {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cs-xl-fullpage-pad {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.cs-lg-no-both-sub-seperation {
+		padding-bottom: 0px;
+		padding-top: 0px;		
+	}		
+	.cs-lg-both-section {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.cs-lg-section {
+		margin-bottom: 30px;
+	}
+	.cs-lg-both-sub-section {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.cs-lg-sub-section {
+		margin-bottom: 15px;
+	}
+	.cs-lg-both-seperation {
+		padding-bottom: 30px;
+		padding-top: 30px;	
+	}
+	.cs-lg-seperation {
+		padding-bottom: 30px;
+	}
+	.cs-lg-both-sub-seperation {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.cs-lg-sub-seperation {
+		padding-bottom: 15px;
+	}
+	.cs-lg-sub-fullpage-pad {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cs-lg-fullpage-pad {
+		padding-right: 30px;
+		padding-left: 30px;
+	}	
+}
+@media screen and (max-width: 767px) {
+	.cs-md-no-section {
+		margin-bottom: 0px;
+	}
+	.cs-md-no-both-sub-seperation {
+		padding-bottom: 0px;
+		padding-top: 0px;		
+	}	
+	.cs-md-both-section {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.cs-md-section {
+		margin-bottom: 30px;
+	}
+	.cs-md-both-sub-section {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.cs-md-no-both-sub-section {
+		margin-bottom: 0;
+		margin-top: 0;
+	}		
+	.cs-md-sub-section {
+		margin-bottom: 15px;
+	}
+	.cs-md-both-seperation {
+		padding-bottom: 30px;
+		padding-top: 30px;	
+	}
+	.cs-md-seperation {
+		padding-bottom: 30px;
+	}
+	.cs-md-both-sub-seperation {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.cs-md-sub-seperation {
+		padding-bottom: 15px;
+	}
+	.cs-md-sub-fullpage-pad {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cs-md-fullpage-pad {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 543px) {
+	.cs-sm-both-section {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.cs-sm-section {
+		margin-bottom: 30px;
+	}
+	.cs-sm-both-sub-section {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.cs-sm-no-both-sub-section {
+		margin-bottom: 0;
+		margin-top: 0;
+	}	
+	.cs-sm-sub-section {
+		margin-bottom: 15px;
+	}
+	.cs-sm-both-seperation {
+		padding-bottom: 30px;
+		padding-top: 30px;	
+	}
+	.cs-sm-seperation {
+		padding-bottom: 30px;
+	}
+	.cs-sm-both-sub-seperation {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.cs-sm-sub-seperation {
+		padding-bottom: 15px;
+	}
+	.cs-sm-sub-fullpage-pad {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cs-sm-fullpage-pad {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
 /****************************************************
 **  Misc                                           **
 *****************************************************/
@@ -265,43 +408,6 @@ button:hover {
 	display: none;
 }
 
-
-/*
-.title-header,
-.title-header-page {
-	font-size: 2.5em;
-	margin-bottom: 30px;
-	text-transform: uppercase;
-}
-.title-header-page {
-	padding-top: 15px;
-}
-.sub-title-header {
-	font-size: 1.5em;
-	margin-bottom: 15px;
-	text-transform: uppercase;
-	text-decoration: underline;
-}*/
-
-
-
-/****************************************************
-**  Arrow                                          **
-*****************************************************/
-i.floating-arrow {
-	font-size: 3.5em;
-	padding: 20px;
-	position: absolute;
-	opacity: 0;
-}
-.ad-left-arrow {
-	left: 0;
-	top: 30%;
-}
-.ad-right-arrow {
-	right: 0;
-	top: 30%;
-}
 
 
 /****************************************************
@@ -354,16 +460,7 @@ i.floating-arrow {
 	background-color: white;	
 	color: #7994A7;
 }
-.shopping-bag-btn {
-	color: black;
-	background: white;
-	border: 1px solid #cccccc;
-}
-.shopping-bag-btn:hover {
-	background: #cccccc;
-	color: white;
-	border: #cccccc;
-}
+
 
 
 /****************************************************
@@ -373,22 +470,20 @@ i.floating-arrow {
 *****************************************************/
 
 
-
-
 /****************************************************
 **                                                 **
 **  Home Page                                      **
 **                                                 **
-*****************************************************/
-/****************************************************
-**  Video BG                                       **
 *****************************************************/
 .findapea-index-hero-container {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
 }
-.video-bg {
+/****************************************************
+**  Image BG                                       **
+*****************************************************/
+.image-bg {
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -396,8 +491,27 @@ i.floating-arrow {
 	right: 0;
 	z-index: -10;
 }
-.video-bg-container video {
+.image-bg-container {
+	background-color: rgba(0, 0, 0, .6)
+}
+.image-bg-container img {
 	width: 100%;
+}
+@media screen and (max-width: 767px) {
+	.findapea-index-hero-container {
+		height: 450px;
+	}	
+	.image-bg-container img {
+		width: 130%;
+	}	
+}
+@media screen and (max-width: 543px) {
+	.findapea-index-hero-container {
+		height: 350px;
+	}	
+	.image-bg-container img {
+		width: 160%;
+	}	
 }
 /****************************************************
 **  Index Header                                   **
@@ -413,33 +527,60 @@ i.floating-arrow {
 .index-header ul li a {
 	color: rgba(255,255,255, .9);
 }
-.index-header-container {
-	padding: 15px 30px;
+@media screen and (max-width: 767px) {
+	.index-header {
+		color: #EC008C;
+		background: white;
+	}
+	.index-header-right-side-container i {
+		font-size: 1.8em;
+	}
 }
-
 /****************************************************
 **  Index Search Bar                               **
 *****************************************************/
-.index-search-bar {
-	font-family: 'Poppins', sans-serif;
-	height: inherit;
-}
 .index-search-bar p {
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
-	font-size: 3.5em;
-	padding-top: 10%;
 	color: white;
 }
-.search-home-bar-container {
-	width: 600px;
+.index-search-bar p.index-search-bar-title {
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
+	font-size: 3em;
+	color: white;
+	padding-top: 24%;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1;
 }
-.search-home-bar input {
-	width: 100%;
-	height: 50px;
-	padding: 15px 20px;
-	font-size: 1.2em;
+.search-home-bar input,
+.search-home-bar button {
+	padding: 10px 20px;
+	font-size: 1em;
 	border-radius: 50px;
 	border: 0;
+}
+.search-home-bar input {
+	width: 580px;
+}
+.search-home-bar button {
+	width: 120px;
+	background-color: #EC008C;
+	color: white;
+}
+@media screen and (max-width: 767px) {
+	.index-search-bar p.index-search-bar-title {
+		padding-top: 35%;
+		font-size: 2em;
+	}
+	.search-home-bar input {
+		width: 100%;
+		margin: 0 2px;
+		border-radius: 0;
+	}
+}
+@media screen and (max-width: 543px) {
+	.index-search-bar p.index-search-bar-title {
+		font-size: 1.5em;
+	}
 }
 /****************************************************
 **                                                 **
