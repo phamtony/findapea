@@ -1,0 +1,455 @@
+/****************************************************
+**  Color Guide                                    **
+*****************************************************/
+/************************************
+
+************************************/
+/****************************************************
+**  Font Guide                                      **
+*****************************************************/
+/************************************
+(Default Bootstrap) - Helvetica Neue
+Open Sans
+Arimo
+************************************/
+
+
+/****************************************************
+**                                                 **
+**  Overall                                        **
+**                                                 **
+*****************************************************/
+html {
+	position: relative;
+	min-height: 100%;
+	min-width: 320px;
+}
+body {
+	color: initial;
+	font-family: 'Varela Round', sans-serif;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: black;
+}
+a:hover {
+  -webkit-transition: color .2s ease-in-out,font-family .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out,font-family .2s ease-in-out;
+  transition: color .2s ease-in-out,font-family .2s ease-in-out;
+  text-decoration: none;
+  color: #cccccc;
+}
+p {
+	margin-bottom: 15px;
+}
+*:focus {
+	outline: none;
+}
+button {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 2px 2px;
+	font-size: 1.2em;
+}
+button:hover {
+	transition: .25s;
+}
+
+
+/****************************************************
+**                                                 **
+**  Bootstrap Custom                               **
+**                                                 **
+*****************************************************/
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.no-gutter-left {
+	padding-left: 0;
+}
+.no-gutter-right {
+	padding-right: 0;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+	position: relative;
+  min-height: 1px;
+  padding-right: .9375rem;
+  padding-left: .9375rem;	
+}
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+
+/****************************************************
+**                                                 **
+**  Add/Override Third-Party CSS                   **
+**                                                 **
+*****************************************************/
+/****************************************************
+**  Slick Carousel                                 **
+*****************************************************/
+.slick-dots li button:before {
+	font-size: 1rem;
+}
+.slick-slider {
+	margin-bottom: 0px !important;
+}
+.slick-dots {
+	bottom: 12px !important;
+}
+/****************************************************
+**  BootStrap                                      **
+*****************************************************/
+.breadcrumb {
+	background-color: initial;
+	margin: 0;
+	padding: 0;
+	border-radius: initial;
+	font-size: .9em;
+}
+.nav-link {
+	position: relative;
+}
+.form-control {
+	border-radius: 0;
+	border: 1px solid #cccccc;
+}
+.form-control:focus {
+	border-color: black;
+}
+
+/****************************************************
+**                                                 **
+**  Site Color Scheme                              **
+**                                                 **
+*****************************************************/
+/*.vintage-blue { color: #7994A7;}
+.cs-color { color: #C76256;}
+.home-grey { color: #D8D8D8;}
+.light-black { color: #4E4E4E;}*/
+
+
+/****************************************************
+**                                                 **
+**  Colors (More to add/modify/remove)             **
+**                                                 **
+*****************************************************/
+.black  { color: #000; }
+.white  { color: #fff; }
+.red    { color: #f00; }
+.gray-border-color { color: #cccccc; }
+.light-gray-border-color { color: #ededed; }
+.orange { color: #ffa500; }
+.las-orange { color: #ff9204; }
+.yellow { color: #ff0; }
+.green  { color: #008000; }
+.blue   { color: #00f; }
+.gray { color: #969696;}
+.cs-red { color:#C50808;}
+.hotpink { color: #a90055;}
+.rose-pink {color: #fc7e81;}
+
+
+
+/****************************************************
+**                                                 **
+**  Resuable Classes                               **
+**                                                 **
+*****************************************************/
+/****************************************************
+**  Page Widths                                    **
+*****************************************************/
+.max-wrap {
+  max-width: 2560px;
+}
+.mid-wrap {
+	max-width: 1200px;
+}
+.large-wrap {
+	max-width: 2000px;
+}
+.small-wrap {
+	max-width: 1024px;
+}
+/****************************************************
+**  Margins                                        **
+*****************************************************/
+.cs-both-section {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.cs-section {
+	margin-bottom: 30px;
+}
+.cs-both-sub-section {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.cs-sub-section {
+	margin-bottom: 15px;
+}
+.cs-both-seperation {
+	padding-bottom: 30px;
+	padding-top: 30px;	
+}
+.cs-seperation {
+	padding-bottom: 30px;
+}
+.cs-both-sub-seperation {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.cs-sub-seperation {
+	padding-bottom: 15px;
+}
+.cs-sub-fullpage-pad {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.cs-fullpage-pad {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+/****************************************************
+**  Misc                                           **
+*****************************************************/
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clear {
+  clear: both;
+}
+.cf:before,
+.cf:after {
+	content:"";
+	display:table;
+	line-height:0;
+}
+.cf:after {
+	clear:both;
+}
+.active-block {
+	display: block;
+}
+.inactive-block {
+	display: none;
+}
+
+
+/*
+.title-header,
+.title-header-page {
+	font-size: 2.5em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.title-header-page {
+	padding-top: 15px;
+}
+.sub-title-header {
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}*/
+
+
+
+/****************************************************
+**  Arrow                                          **
+*****************************************************/
+i.floating-arrow {
+	font-size: 3.5em;
+	padding: 20px;
+	position: absolute;
+	opacity: 0;
+}
+.ad-left-arrow {
+	left: 0;
+	top: 30%;
+}
+.ad-right-arrow {
+	right: 0;
+	top: 30%;
+}
+
+
+/****************************************************
+**                                                 **
+**  Button Classes                                 **
+**                                                 **
+*****************************************************/
+.btn-black-white {
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+}
+.btn-black-white:hover {
+	background-color: white;
+	color: black;
+}
+.btn-red-white {
+	background-color: #9A3232;
+	border: 2px solid #9A3232;
+	color: white;
+}
+.btn-red-white:hover {
+	background-color: white;
+	color: #9A3232;
+}
+.btn-white-black {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+.btn-white-black:hover {
+	background-color: black;
+	color: white;	
+}
+.btn-wish-green {
+	border: 2px solid #999967;
+	background-color: #999967;
+	color: white;
+}
+.btn-wish-green:hover {
+	background-color: white;
+	color: #999967;
+}
+.btn-blue-white {
+	border: 2px solid #7994A7;
+	background-color: #7994A7;	
+	color: white;
+}
+.btn-blue-white:hover {
+	background-color: white;	
+	color: #7994A7;
+}
+.shopping-bag-btn {
+	color: black;
+	background: white;
+	border: 1px solid #cccccc;
+}
+.shopping-bag-btn:hover {
+	background: #cccccc;
+	color: white;
+	border: #cccccc;
+}
+
+
+/****************************************************
+**                                                 **
+**  Header                                         **
+**                                                 **
+*****************************************************/
+
+
+
+
+/****************************************************
+**                                                 **
+**  Home Page                                      **
+**                                                 **
+*****************************************************/
+/****************************************************
+**  Video BG                                       **
+*****************************************************/
+.findapea-index-hero-container {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+.video-bg {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -10;
+}
+.video-bg-container video {
+	width: 100%;
+}
+/****************************************************
+**  Index Header                                   **
+*****************************************************/
+.index-header {
+	color: rgba(255,255,255, .9);
+	width: 100%;
+}
+.index-header ul li {
+	float: left;
+	margin: 0 10px;
+}
+.index-header ul li a {
+	color: rgba(255,255,255, .9);
+}
+.index-header-container {
+	padding: 15px 30px;
+}
+
+/****************************************************
+**  Index Search Bar                               **
+*****************************************************/
+.index-search-bar {
+	font-family: 'Poppins', sans-serif;
+	height: inherit;
+}
+.index-search-bar p {
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
+	font-size: 3.5em;
+	padding-top: 10%;
+	color: white;
+}
+.search-home-bar-container {
+	width: 600px;
+}
+.search-home-bar input {
+	width: 100%;
+	height: 50px;
+	padding: 15px 20px;
+	font-size: 1.2em;
+	border-radius: 50px;
+	border: 0;
+}
+/****************************************************
+**                                                 **
+**  Footer                                         **
+**                                                 **
+*****************************************************/
+
+
+
+
+
+
+
