@@ -27,6 +27,8 @@
 
 	
 				<div class="container-fluid">
+
+
 					<div class="row">
 
 						<div class="findapea-index-hero">
@@ -72,23 +74,45 @@
 
 										<div class="search-home-bar">
 											<div class="search-home-bar-container text-xs-center mid-wrap">
-												<input class="center" type="text" placeholder="Find your perfect roommate">
-												<button>Search</button>
+												<div class="search-home-bar-wrapper center">
+													<input class="center" type="text" placeholder="Find your perfect roommate">
+													<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+												</div>
 											</div>
 										</div>
 
 									</div>
 								</div>
 
+							</div>
+						</div>
+
+					</div>
 
 
 
+					<div class="row">
+						<!-- Profile Representative Module -->
+						<div class="index-profile-rep-module">
+							<div class="index-profile-rep-module-container cs-both-seperation center">
+								
+								<p class="title-header text-xs-center cs-seperation">Complete your profile today!</p>
 
+								<div class="index-profile-rep-portrait">
+									<div class="index-profile-rep-portrait-container small-wrap center cf">
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt1.jpg" alt=""></div>
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt2.jpg" alt=""></div>
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt3.jpg" alt=""></div>
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt4.jpg" alt=""></div>
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt5.jpg" alt=""></div>
+										<div class="col-xs-6 col-sm-4 cs-sub-seperation"><img src="/img/pt6.jpg" alt=""></div>
+									</div>
+								</div>
 
 							</div>
 						</div>
-					
 					</div>
+
 				</div>		
 
 
