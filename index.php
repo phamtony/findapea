@@ -91,8 +91,8 @@
 
 
 
+					<!-- Profile Representative Module -->
 					<div class="row">
-						<!-- Profile Representative Module -->
 						<div class="index-profile-rep-module">
 							<div class="index-profile-rep-module-container cs-both-seperation center">
 								
@@ -112,6 +112,27 @@
 							</div>
 						</div>
 					</div>
+
+					
+					<div class="row">
+						<div class="index-profile-start-here">
+							<div class="index-profile-start-here-container">
+
+								<div class="index-profile-start-here-image">
+									<img src="/img/start-here.jpg" alt="">	
+								</div>
+
+								<p class="cs-sub-seperation index-search-bar-title text-xs-center">Find your compatible<br>roommate now</p>
+								<div class="index-profile-start-here-button text-xs-center">
+									<button><a href="/registration.php">Start Here</a></button>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+
+
 
 				</div>		
 

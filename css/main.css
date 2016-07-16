@@ -490,6 +490,24 @@ h1, h2, h3, h4, h5, h6 {
 	height: 600px;
 	overflow: hidden;
 }
+p.index-search-bar-title {
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
+	font-size: 3em;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1;
+}
+@media screen and (max-width: 767px) {
+	p.index-search-bar-title {
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 543px) {
+	p.index-search-bar-title {
+		font-size: 1.5em;
+	}
+}
 /****************************************************
 **  Image BG                                       **
 *****************************************************/
@@ -547,22 +565,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 /****************************************************
 **  Index Search Bar                               **
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-RE-WORK THIS THING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *****************************************************/
 .index-search-bar p {
 	color: white;
 }
-.index-search-bar p.index-search-bar-title {
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
-	font-size: 3em;
-	color: white;
+.index-search-bar-container p.index-search-bar-title {
 	padding-top: 300px;
-	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 1;
 }
 .search-home-bar-wrapper {
 	width: 700px;
@@ -583,8 +591,7 @@ RE-WORK THIS THING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	top: 0;
 }
 @media screen and (max-width: 767px) {
-	.index-search-bar p.index-search-bar-title {
-		font-size: 2em;
+	.index-search-bar-container p.index-search-bar-title {
 		padding-top: 280px;
 	}
 	.search-home-bar-wrapper {
@@ -597,12 +604,12 @@ RE-WORK THIS THING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		border-radius: 0;
 	}
 	.search-home-bar-wrapper button {
-		padding: 23px 30px;
+		right: 10px;
+		top: 15px;
 	}	
 }
 @media screen and (max-width: 543px) {
-	.index-search-bar p.index-search-bar-title {
-		font-size: 1.5em;
+	.index-search-bar-container p.index-search-bar-title {
 		padding-top: 200px;
 	}
 }
@@ -619,10 +626,100 @@ RE-WORK THIS THING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	width: 100%;
 }
 /****************************************************
+**  Start Here Module                              **
+*****************************************************/
+.index-profile-start-here-container {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+.index-profile-start-here-image {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -10;
+}
+.index-profile-start-here-container p.index-search-bar-title {
+	padding-top: 150px;
+}
+.index-profile-start-here-image img {
+	width: 100%;
+}
+.index-profile-start-here-button {
+	width: 100%;
+}
+.index-profile-start-here-button button {
+	width: 200px;
+	background-color: #EC008C;
+	border-radius: 50px;
+	padding: 8px 20px;
+}
+.index-profile-start-here-button button a {
+	color: white;
+}
+@media screen and (max-width: 991px) {
+	.index-profile-start-here-image img {
+		width: 991px;
+	}	
+}
+@media screen and (max-width: 767px) {
+	.index-profile-start-here-container {
+		height: 300px;
+	}	
+	.index-profile-start-here-container p.index-search-bar-title {
+		padding-top: 100px;
+	}	
+	.index-profile-start-here-image img {
+		width: 767px;
+	}	
+}
+/****************************************************
 **                                                 **
 **  Footer                                         **
 **                                                 **
 *****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
