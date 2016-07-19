@@ -26,11 +26,12 @@ html {
 }
 body {
 	color: initial;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 a {
 	color: black;
@@ -172,6 +173,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .small-wrap {
 	max-width: 1024px;
+}
+.mini-wrap {
+	max-width: 768px;
 }
 /****************************************************
 **  Margins                                        **
@@ -415,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 767px) {
 	.title-header {
-		font-size: 1.4em;
+		font-size: 1.8em;
 	}	
 }
 
@@ -478,18 +482,48 @@ h1, h2, h3, h4, h5, h6 {
 **  Header                                         **
 **                                                 **
 *****************************************************/
+.findapea-header {
+	width: 100%;
+}
+.findapea-header-left-side-container {
+	margin: 10px 0;
+}
+.findapea-header-left-side-container img {
+	width: 160px;
+}
+.findapea-header ul li {
+	float: left;
+	margin: 0 10px;
+}
+@media screen and (max-width: 767px) {
+	.findapea-header-right-side-container i {
+		font-size: 1.8em;
+	}
+}
 
-
+/****************************************************
+**                                                 **
+**  Footer                                         **
+**                                                 **
+*****************************************************/
+footer {
+	background-color: #f5f5f5;
+}
+.footer-bottom {
+	color: white;
+	background-color: black;	
+}
+.footer-bottom-container {
+	padding: 5px 0;
+}
+.footer-bottom-container p {
+	font-size: .7em;
+}
 /****************************************************
 **                                                 **
 **  Home Page                                      **
 **                                                 **
 *****************************************************/
-.findapea-index-hero-container {
-	position: relative;
-	height: 600px;
-	overflow: hidden;
-}
 p.index-search-bar-title {
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 2);
 	font-size: 3em;
@@ -512,8 +546,13 @@ p.index-search-bar-title {
 **  Image BG                                       **
 *****************************************************/
 .image-bg {
-	position: absolute;
+	height: 600px;
 	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.image-bg-container {
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -528,49 +567,30 @@ p.index-search-bar-title {
 	}	
 }
 @media screen and (max-width: 767px) {
-	.findapea-index-hero-container {
-		height: 500px;
+	.image-bg {
+		height: 450px;
 	}	
 	.image-bg-container img {
 		width: 767px;
 	}	
 }
 @media screen and (max-width: 543px) {
-	.findapea-index-hero-container {
-		height: 400px;
+	.image-bg {
+		height: 350px;
 	}	
-}
-/****************************************************
-**  Index Header                                   **
-*****************************************************/
-.index-header {
-	color: rgba(255,255,255, .9);
-	width: 100%;
-}
-.index-header ul li {
-	float: left;
-	margin: 0 10px;
-}
-.index-header ul li a {
-	color: rgba(255,255,255, .9);
-}
-@media screen and (max-width: 767px) {
-	.index-header {
-		color: #EC008C;
-		background: white;
-	}
-	.index-header-right-side-container i {
-		font-size: 1.8em;
-	}
 }
 /****************************************************
 **  Index Search Bar                               **
 *****************************************************/
+.index-search-bar {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	top: 320px;
+	left: 0;
+	right: 0;
+}
 .index-search-bar p {
 	color: white;
-}
-.index-search-bar-container p.index-search-bar-title {
-	padding-top: 300px;
 }
 .search-home-bar-wrapper {
 	width: 700px;
@@ -591,8 +611,8 @@ p.index-search-bar-title {
 	top: 0;
 }
 @media screen and (max-width: 767px) {
-	.index-search-bar-container p.index-search-bar-title {
-		padding-top: 280px;
+	.index-search-bar {
+		top: 280px;
 	}
 	.search-home-bar-wrapper {
 		width: 100%;
@@ -609,20 +629,35 @@ p.index-search-bar-title {
 	}	
 }
 @media screen and (max-width: 543px) {
-	.index-search-bar-container p.index-search-bar-title {
-		padding-top: 200px;
+	.index-search-bar {
+		top: 210px;
 	}
 }
 /****************************************************
-**  Profile Representative Module                  **
+**  Intro Module                                   **
 *****************************************************/
-.index-profile-rep-module {
-	background: #e7e7e7;
+.index-intro {
+	background: #f5f5f5;
 }
-.index-profile-rep-module-container .title-header {
+/****************************************************
+**  Feature Module                                 **
+*****************************************************/
+.index-feature-intro-container i {
+	font-size: 3em;
 	color: #EC008C;
 }
-.index-profile-rep-portrait-container > div > img {
+@media screen and (max-width: 543px) {
+	.index-feature-intro-container i {
+		font-size: 2em;
+	}	
+}
+/****************************************************
+**  Forum Module                                   **
+*****************************************************/
+.index-forum-intro {
+	background: #f5f5f5;
+}
+.index-forum-intro-container img {
 	width: 100%;
 }
 /****************************************************
@@ -675,11 +710,6 @@ p.index-search-bar-title {
 		width: 767px;
 	}	
 }
-/****************************************************
-**                                                 **
-**  Footer                                         **
-**                                                 **
-*****************************************************/
 
 
 
