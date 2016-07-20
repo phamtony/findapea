@@ -50,8 +50,10 @@
 											<div class="search-home-bar">
 												<div class="search-home-bar-container text-xs-center mid-wrap">
 													<div class="search-home-bar-wrapper center">
-														<input class="center" type="text" placeholder="Find your perfect roommate">
-														<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+														<form action="/listing.php">
+															<input class="center" type="text" placeholder="Find your perfect roommate">
+															<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+														</form>
 													</div>
 												</div>
 											</div>
@@ -140,9 +142,9 @@
 									<img src="/img/start-here.jpg" alt="">	
 								</div>
 
-								<p class="cs-sub-seperation index-search-bar-title text-xs-center">Find your compatible<br>roommate now</p>
+								<p class="cs-sub-seperation index-search-bar-title text-xs-center">Your roommate search<br>ends here!</p>
 								<div class="index-profile-start-here-button text-xs-center">
-									<button><a href="/registration.php">Start Here</a></button>
+									<button><a href="/registration.php">Sign up</a></button>
 								</div>
 
 

@@ -41,7 +41,7 @@ a:hover {
   -moz-transition: color .2s ease-in-out,font-family .2s ease-in-out;
   transition: color .2s ease-in-out,font-family .2s ease-in-out;
   text-decoration: none;
-  color: #cccccc;
+  color: #EC008C;
 }
 p {
 	margin-bottom: 0px;
@@ -508,6 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 *****************************************************/
 footer {
 	background-color: #f5f5f5;
+	font-size: .85em;
 }
 .footer-bottom {
 	color: white;
@@ -517,7 +518,21 @@ footer {
 	padding: 5px 0;
 }
 .footer-bottom-container p {
-	font-size: .7em;
+	font-size: .85em;
+}
+.footer-first-section > div {
+	margin-left: 15px;
+	float: left;
+}
+.footer-first-section img {
+	width: 80px;
+	float: left;
+}
+.footer-first-section ul {
+	font-size: 3em;
+}
+.footer-first-section ul > li {
+	display: inline-block;
 }
 /****************************************************
 **                                                 **

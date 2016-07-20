@@ -12,8 +12,8 @@
 			<div class="findapea-header-right-side-container cs-both-sub-seperation">
 				<i class="fa fa-bars hidden-md-up" aria-hidden="true"></i>
 				<ul class="list-unstyled text-uppercase clearfix hidden-sm-down">
-					<li><a href="#">Sign up</a></li>
-					<li><a href="#">Log In</a></li>
+					<li><a href="/registration.php">Sign up</a></li>
+					<li><a href="/login.php">Log In</a></li>
 				</ul>
 			</div>
 		</div>										

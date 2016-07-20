@@ -3,6 +3,18 @@
 
 		<div class="footer-top cs-lg-both-sub-seperation cs-lg-sub-fullpage-pad cs-fullpage-pad cs-both-seperation">
 			<div class="row">
+<!-- 				<div class="col-sm-3 cs-md-sub-seperation footer-first-section">
+					<img src="/img/findapea_icon.svg" alt="">
+					<div>
+						<span>Follow Us</span>
+						<ul>
+							<li><a href="/facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+							<li><a href="/instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="/twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+							<li><a href="/linkedin.com"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div> -->
 				<div class="col-sm-4 text-xs-center cs-md-sub-seperation">
 					<ul>
 						<li><strong>Need Help?</strong></li>
@@ -33,7 +45,7 @@
 		<div class="footer-bottom">
 			<div class="footer-bottom-container">
 				<p class="text-xs-center">
-					&#169; findapea, 2016
+					&#169; 2016 findapea - All rights reserved
 				</p>
 			</div>
 		</div>
