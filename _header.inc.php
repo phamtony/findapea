@@ -4,7 +4,9 @@
 		
 		<div class="findapea-header-left-side pull-xs-left">
 			<div class="findapea-header-left-side-container">
-				<img src="/img/findapea_logo.svg" alt="">
+				<a href="/">
+					<img src="/img/findapea_logo.svg" alt="">
+				</a>
 			</div>
 		</div>
 
@@ -14,6 +16,8 @@
 				<ul class="list-unstyled text-uppercase clearfix hidden-sm-down">
 					<li><a href="/registration.php">Sign up</a></li>
 					<li><a href="/login.php">Log In</a></li>
+
+					<!-- <li><a href="/account.php"><span>Tony</span> <img src="/img/findapea_icon.svg" alt=""></a></li> -->
 				</ul>
 			</div>
 		</div>										

@@ -187,6 +187,10 @@ h1, h2, h3, h4, h5, h6 {
 .cs-section {
 	margin-bottom: 30px;
 }
+.cs-sub-fullpage-mar {
+	margin-left: 15px;
+	margin-right: 15px;
+}
 .cs-both-sub-section {
 	margin-bottom: 15px;
 	margin-top: 15px;
@@ -484,6 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 *****************************************************/
 .findapea-header {
 	width: 100%;
+	border-bottom: 1px solid #cccccc;
 }
 .findapea-header-left-side-container {
 	margin: 10px 0;
@@ -494,6 +499,9 @@ h1, h2, h3, h4, h5, h6 {
 .findapea-header ul li {
 	float: left;
 	margin: 0 10px;
+}
+.findapea-header-right-side ul li img {
+	width: 50px;
 }
 @media screen and (max-width: 767px) {
 	.findapea-header-right-side-container i {
@@ -725,6 +733,53 @@ p.index-search-bar-title {
 		width: 767px;
 	}	
 }
+
+
+
+/****************************************************
+**                                                 **
+**  Listing Page                                   **
+**                                                 **
+*****************************************************/
+.findapea-listing-page-container {
+	font-size: .85em;
+}
+.listing-page-query-filter {
+	border-bottom: 1px solid #cccccc;
+}
+.listing-page-query-filter-search-container input {
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	height: 40px;
+	padding: 0 15px;
+}
+.listing-page-map-container > img {
+	width: 100%;
+}
+.listing-page-query-profile-section-container {
+	border-bottom: 1px solid #dbdbdb;
+}
+.listing-page-query-profile-section img {
+	width: 100%;
+	border: 1px solid black;
+}
+.listing-page-query-profile-section-factlist {
+	margin: 10px 0;
+}
+.listing-page-query-profile-section-filterlist > li,
+.listing-page-query-profile-section-factlist > li {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
 
 
 
