@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 .blue   { color: #00f; }
 .gray { color: #969696;}
 .cs-red { color:#C50808;}
-.hotpink { color: #a90055;}
+.hotpink { color: #EC008C;}
 .rose-pink {color: #fc7e81;}
 
 
@@ -348,6 +348,14 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: 30px;
 		padding-left: 30px;
 	}
+	.no-gutter-md {
+	  padding-right: 0;
+	  padding-left: 0;
+	}			
+	.no-gutter-tb-md {
+	  padding-top: 0;
+	  padding-bottom: 0;
+	}	
 }
 @media screen and (max-width: 543px) {
 	.cs-sm-both-section {
@@ -390,6 +398,14 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: 30px;
 		padding-left: 30px;
 	}
+	.no-gutter-sm {
+	  padding-right: 0;
+	  padding-left: 0;
+	}				
+	.no-gutter-tb-sm {
+	  padding-top: 0;
+	  padding-bottom: 0;
+	}		
 }
 /****************************************************
 **  Misc                                           **
@@ -425,6 +441,22 @@ h1, h2, h3, h4, h5, h6 {
 	.title-header {
 		font-size: 1.8em;
 	}	
+}
+/****************************************************
+**  Arrow                                          **
+*****************************************************/
+i.floating-arrow {
+	font-size: 2.4em;
+	position: absolute;
+	opacity: .5;
+}
+.pea-left-arrow {
+	left: 0;
+	top: 35%;
+}
+.pea-right-arrow {
+	right: 0;
+	top: 35%;
 }
 
 
@@ -773,13 +805,87 @@ p.index-search-bar-title {
 	overflow: hidden;
 }
 
-
-
-
-
-
-
-
+/****************************************************
+**                                                 **
+**  Profile Page                                   **
+**                                                 **
+*****************************************************/
+.findapea-profile-info-extended,
+.findapea-profile-info-interest {
+	border-bottom: 1px solid #eceeef;
+}
+.findapea-profile-section-image-container img {
+	width: 100%;
+	padding: 4px;
+	border: 1px solid #cccccc;
+}
+.findapea-profile-section-container > div > div h6 {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eceeef;
+}
+.findapea-profile-section-verify-container,
+.findapea-profile-section-aboutme-container {
+	border: 1px solid #cccccc;
+}
+.findapea-profile-section-verify-container table,
+.findapea-profile-section-aboutme-container p {
+	font-size: .8em;
+}
+.findapea-profile-section-verify-container .table td, 
+.findapea-profile-section-verify-container .table th {
+	border-top: 0;
+}
+.profile-listing-room img {
+	width: 100%;
+}
+.profile-listing-room p {
+	font-size: .8em;
+}
+.profile-listing-room p i {
+	width: 25px;
+}
+.findapea-profile-info-photoalbum {
+	position: relative;
+}
+.findapea-profile-info-photoalbum-container {
+	border-top: 2px solid #eceeef;
+	border-bottom: 2px solid #eceeef;
+}
+.findapea-profile-info-photoalbum-container div {
+	padding: 0 5px;
+}
+.findapea-profile-info-photoalbum-container div a > img {
+	width: 100%;
+}
+.findapea-profile-info-reviews-container > h2 > span,
+.review-profile-message-container h5 > span {
+	font-size: .7em
+}
+.findapea-profile-review {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eceeef;
+}
+.review-profile-pic {
+	float: left;
+	width: 150px;
+}
+.review-profile-pic-container img {
+	width: 125px;
+}
+@media screen and (max-width: 543px) {
+	.findapea-profile-section-image-container img {
+		padding: 0px;
+		border: 0;
+	}	
+	.findapea-profile-page-container > div > div h6 {
+		background-color: none;
+		border-bottom: 0;
+	}
+	.findapea-profile-section-verify-container,
+	.findapea-profile-section-aboutme-container {
+		border: 0;
+	}	
+}
 
 
 

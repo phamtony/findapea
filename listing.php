@@ -62,7 +62,7 @@
 										<div class="listing-page-query-profile-container">
 
 
-											<?php include('_profile.inc.php');?>		
+											<?php include('_profileInListing.inc.php');?>		
 											
 
 										</div>

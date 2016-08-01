@@ -10,3 +10,9 @@
 
 	<!-- Custom JS -->
 	<script type="text/javascript" src="/js/main.js"></script>
+
+
+	<script>
+		PeaProfile.photoAlbum();
+		PeaProfile.albumFancybox();
+	</script>
