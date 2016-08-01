@@ -33,11 +33,11 @@
 							<div class="listing-page-query">
 								<div class="listing-page-query-container">
 									
-									<div class="listing-page-query-filter">
-										<div class="listing-page-query-filter-container cs-both-sub-seperation cs-sub-fullpage-pad">
+									<div class="listing-page-query-filter cs-both-sub-seperation cs-sub-fullpage-pad">
+										<div class="listing-page-query-filter-container">
 											
-											<div class="listing-page-query-filter-search">
-												<div class="listing-page-query-filter-search-container cs-sub-seperation">
+											<div class="listing-page-query-filter-search cs-sub-seperation">
+												<div class="listing-page-query-filter-search-container">
 													<input type="text">
 												</div>
 											</div>

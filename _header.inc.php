@@ -1,6 +1,6 @@
 <!-- Header -->
-<div class="findapea-header">
-	<div class="findapea-header-container cs-md-sub-fullpage-pad cs-fullpage-pad clearfix">
+<div class="findapea-header cs-md-sub-fullpage-pad cs-fullpage-pad">
+	<div class="findapea-header-container clearfix">
 		
 		<div class="findapea-header-left-side pull-xs-left">
 			<div class="findapea-header-left-side-container">
@@ -10,8 +10,8 @@
 			</div>
 		</div>
 
-		<div class="findapea-header-right-side pull-xs-right">
-			<div class="findapea-header-right-side-container cs-both-sub-seperation">
+		<div class="findapea-header-right-side cs-both-sub-seperation pull-xs-right">
+			<div class="findapea-header-right-side-container">
 				<i class="fa fa-bars hidden-md-up" aria-hidden="true"></i>
 				<ul class="list-unstyled text-uppercase clearfix hidden-sm-down">
 					<li><a href="/registration.php">Sign up</a></li>

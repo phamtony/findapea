@@ -71,8 +71,8 @@
 
 					<!-- Findapea intro -->
 					<div class="row">
-						<div class="index-intro">
-							<div class="index-intro-container mini-wrap cs-sub-fullpage-pad cs-both-seperation center">
+						<div class="index-intro cs-sub-fullpage-pad cs-both-seperation">
+							<div class="index-intro-container mini-wrap center">
 								<p class="text-xs-center">We've all had bad/mediorcre roommate experiences. Let us change that. Findapea, will help you find the roommate you never knew you needed!</p>
 							</div>
 						</div>
@@ -81,8 +81,8 @@
 
 					<!-- Findapea Feature Intro -->
 					<div class="row">
-						<div class="index-feature-intro">
-							<div class="index-feature-intro-container center small-wrap cs-both-seperation cs-sub-fullpage-pad">
+						<div class="index-feature-intro cs-both-seperation cs-sub-fullpage-pad">
+							<div class="index-feature-intro-container center small-wrap">
 								<p class="text-xs-center cs-seperation title-header">
 									Features
 								</p>
@@ -119,8 +119,8 @@
 
 					<!-- Findapea Forum Listing Intro -->
 					<div class="row">
-						<div class="index-forum-intro">
-							<div class="index-forum-intro-container center small-wrap cs-both-seperation cs-sub-fullpage-pad">
+						<div class="index-forum-intro cs-both-seperation cs-sub-fullpage-pad">
+							<div class="index-forum-intro-container center small-wrap">
 								<p class="text-xs-center cs-seperation title-header">
 									Forum Discussion
 								</p>
