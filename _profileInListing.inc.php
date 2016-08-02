@@ -7,6 +7,10 @@
 					<h5><strong>Tony Pham</strong></h5>
 					<p>Alhambra, CA</p>
 				</a>
+				
+				<!-- Temp Markup, Until chatroom section is complete -->
+				<p class="chat-show cs-both-sub-section" style="display: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetti</p>
+
 				<ul class="listing-page-query-profile-section-factlist">
 					<li>Loves Hip Hop</li>
 					<li>Basketball Wizard</li>
@@ -35,6 +39,10 @@
 					<h5><strong>Boris Clemente</strong></h5>
 					<p>Alhambra, CA</p>
 				</a>
+
+				<!-- Temp Markup, Until chatroom section is complete -->
+				<p class="chat-show cs-both-sub-section" style="display: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetti</p>
+
 				<ul class="listing-page-query-profile-section-factlist">
 					<li>Loves Hip Hop</li>
 					<li>Basketball Wizard</li>
@@ -119,6 +127,11 @@
 					<h5><strong>Robin Tholt</strong></h5>
 					<p>Alhambra, CA</p>
 				</a>
+
+
+				<!-- Temp Markup, Until chatroom section is complete -->
+				<p class="chat-show cs-both-sub-section" style="display: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetti</p>
+				
 				<ul class="listing-page-query-profile-section-factlist">
 					<li>Loves Hip Hop</li>
 					<li>Basketball Wizard</li>

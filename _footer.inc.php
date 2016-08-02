@@ -45,7 +45,7 @@
 		<div class="footer-bottom">
 			<div class="footer-bottom-container">
 				<p class="text-xs-center">
-					&#169; 2016 findapea - All rights reserved
+					A website by Tony and friends. &#169; <strong>2016 findapea, LLC</strong>
 				</p>
 			</div>
 		</div>

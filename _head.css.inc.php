@@ -14,3 +14,6 @@
 	<!-- Custom CSS -->
 	<link type="text/css" rel="stylesheet" href="/css/main.css" />
 	<link type="text/css" rel="stylesheet" href="/css/media-queries.css" />
+
+
+	<link rel="icon" type="image/png" href="/img/favicon.png">

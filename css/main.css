@@ -530,10 +530,15 @@ i.floating-arrow {
 }
 .findapea-header ul li {
 	float: left;
-	margin: 0 10px;
+	margin: 0 0 0 15px;
 }
-.findapea-header-right-side ul li img {
-	width: 50px;
+.findapea-header-right-side-container ul > li i {
+	font-size: 1.6em;
+	margin: 0 5px;
+}
+.findapea-header-right-side-container ul > li span {
+	vertical-align: top;
+	font-size: .9em;
 }
 @media screen and (max-width: 767px) {
 	.findapea-header-right-side-container i {
@@ -887,10 +892,27 @@ p.index-search-bar-title {
 	}	
 }
 
-
-
-
-
+/****************************************************
+**                                                 **
+**  Chat Page                                      **
+**                                                 **
+*****************************************************/
+/*Temp Styling DELETE WHEN DEVELOPMENT*/
+.findapea-chatroom-page-container .listing-page-query-profile-section-factlist,
+.findapea-chatroom-page-container .listing-page-query-profile-section-filterlist,
+.findapea-chatroom-page-container .listing-page-query-profile-section a > p {
+	display: none;
+}
+.findapea-chatroom-page-container .listing-page-query-profile-section p.chat-show {
+	display: block !important;
+}
+.findapea-chatroom-page-container .listing-page-query-profile-section:first-child {
+	background-color: #f7f7f7;
+}
+/*Normal Styling*/
+.findapea-chatroom-list {
+	border-right: 1px solid #cccccc;
+}
 
 
 
