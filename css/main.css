@@ -562,8 +562,10 @@ i.floating-arrow {
 .footer-top li > a > i {
 	width: 20px;
 }
-.footer-top li:first-child {
-	margin-bottom: 10px;
+.footer-social-media li {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 1.4em;
 }
 .footer-bottom-container {
 	padding: 5px 0;
