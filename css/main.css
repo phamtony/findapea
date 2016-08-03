@@ -551,33 +551,25 @@ i.floating-arrow {
 **  Footer                                         **
 **                                                 **
 *****************************************************/
-footer {
-	background-color: #f5f5f5;
+.footer-nav-findapea {
+	background-color: black;	
+	color: white;
 	font-size: .85em;
 }
-.footer-bottom {
+.footer-nav-findapea a {
 	color: white;
-	background-color: black;	
+}
+.footer-top li > a > i {
+	width: 20px;
+}
+.footer-top li:first-child {
+	margin-bottom: 10px;
 }
 .footer-bottom-container {
 	padding: 5px 0;
 }
 .footer-bottom-container p {
 	font-size: .85em;
-}
-.footer-first-section > div {
-	margin-left: 15px;
-	float: left;
-}
-.footer-first-section img {
-	width: 80px;
-	float: left;
-}
-.footer-first-section ul {
-	font-size: 3em;
-}
-.footer-first-section ul > li {
-	display: inline-block;
 }
 /****************************************************
 **                                                 **
@@ -770,8 +762,22 @@ p.index-search-bar-title {
 		width: 767px;
 	}	
 }
-
-
+/****************************************************
+**  Instagram Module                               **
+*****************************************************/
+.index-social-media ul > li {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 1.5em;
+}
+.index-social-media-instagram-photo > div > div {
+	padding: 4px;
+	padding: 4px;
+	border: 1px solid #dcdcdc;	
+}
+.index-social-media-instagram-photo > div > div > img {
+	width: 100%;
+}
 
 /****************************************************
 **                                                 **

@@ -50,7 +50,7 @@
 											<div class="search-home-bar">
 												<div class="search-home-bar-container text-xs-center mid-wrap">
 													<div class="search-home-bar-wrapper center">
-														<form action="/listing.php">
+														<form action="/listing-user.php">
 															<input class="center" type="text" placeholder="Find your perfect roommate">
 															<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 														</form>
@@ -149,6 +149,55 @@
 
 
 							</div>
+						</div>
+					</div>
+
+					
+					<!-- Instagram Module -->
+					<div class="index-social-media cs-both-seperation">
+						<div class="cs-md-sub-seperation text-xs-center">
+							<h2 class="cs-seperation">follow us on instagram <a href="https://www.instagram.com/findapea">@findapea</a></h2>
+					<!-- 		<ul class="cs-sub-seperation">
+								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+							</ul>				 -->
+
+								<div class="row index-social-media-instagram-photo">
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta1.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta2.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta3.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta4.jpg" alt="">
+										</div>
+									</div>									
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta5.jpg" alt="">
+										</div>
+									</div>		
+									<div class="col-sm-6 col-md-4 col-lg-2 cs-lg-both-sub-seperation cs-sub-fullpage-pad">
+										<div>
+											<img src="/img/insta6.jpg" alt="">
+										</div>
+									</div>								
+								</div>
+
 						</div>
 					</div>
 
