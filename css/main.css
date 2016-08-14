@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .light-gray-border-color { color: #ededed; }
 .orange { color: #ffa500; }
 .las-orange { color: #ff9204; }
-.green  { color: #006838; }
+.green  { color: #rgb(0, 104, 56); }
 .gray { color: #969696;}
 .cs-red { color:#C50808;}
 .hotpink { color: #EC008C;}
@@ -584,15 +584,22 @@ i.floating-arrow {
 **                                                 **
 *****************************************************/
 .footer-nav-findapea {
-	background-color: black;	
-	color: white;
 	font-size: .85em;
+	color: white;
+	background-image: url('/img/city1.jpg');
 }
 .footer-nav-findapea a {
 	color: white;
 }
+.footer-top {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
 .footer-top li > a > i {
 	width: 20px;
+}
+.footer-social-media-container {
+	padding-top: 30px;
 }
 .footer-social-media li {
 	display: inline-block;
@@ -604,6 +611,12 @@ i.floating-arrow {
 }
 .footer-bottom-container p {
 	font-size: .85em;
+}
+@media screen and (max-width: 991px) {
+	.footer-top {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 }
 /****************************************************
 **                                                 **
