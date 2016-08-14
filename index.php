@@ -44,14 +44,14 @@
 									<div class="index-search-bar">
 										<div class="index-search-bar-container center mid-wrap">
 
-											<p class="cs-sub-seperation index-search-bar-title text-xs-center">You are about to be<br>in good company</p>
-											<p class="cs-sub-seperation text-xs-center hidden-sm-down">A personality base search is a click away</p>
+											<p class="cs-sub-seperation index-search-bar-title text-xs-center">Find your roommate<br>and a friend for life</p>
+											<p class="cs-sub-seperation text-xs-center hidden-sm-down">Find someone around your area</p>
 
 											<div class="search-home-bar">
 												<div class="search-home-bar-container text-xs-center mid-wrap">
 													<div class="search-home-bar-wrapper center">
 														<form action="/listing-user.php">
-															<input class="center" type="text" placeholder="Find your perfect roommate">
+															<input class="center" type="text" placeholder="States, Cities, Zip codes">
 															<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 														</form>
 													</div>
