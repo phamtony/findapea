@@ -73,7 +73,9 @@
 					<div class="row">
 						<div class="index-intro cs-sub-fullpage-pad cs-both-seperation">
 							<div class="index-intro-container mini-wrap center">
-								<p class="text-xs-center">We've all had bad/mediorcre roommate experiences. Let us change that. Findapea, will help you find the roommate you never knew you needed!</p>
+								<p class="text-xs-center">
+									Connect with roommates or with roommates that have availble rooms. Don't want a roommate? Look for a place yourself. Not ready for any commitment? Talk it out in our forums!
+								</p>
 							</div>
 						</div>
 					</div>
@@ -81,33 +83,33 @@
 
 					<!-- Findapea Feature Intro -->
 					<div class="row">
-						<div class="index-feature-intro cs-both-seperation cs-sub-fullpage-pad">
+						<div class="index-feature-intro cs-both-seperation">
 							<div class="index-feature-intro-container center small-wrap">
 								<p class="text-xs-center cs-seperation title-header">
-									Features
+									Our Services
 								</p>
 								<div class="container-fluid">
 									<div class="row">
 										<div class="cs-md-sub-seperation col-xs-12 col-sm-6 col-md-3 text-xs-center">
 											<i class="fa fa-users" aria-hidden="true"></i>
-											<p><strong>Profile Matching</strong></p>
+											<p><strong>Roommate Matching</strong></p>
 											<p>Find peas that have similiar interest as you!</p>
 										</div>
 										<div class="cs-md-sub-seperation col-xs-12 col-sm-6 col-md-3 text-xs-center">
-											<i class="fa fa-lock" aria-hidden="true"></i>
-											<p><strong>Security</strong></p>
-											<p>The people you interact are actual people and not fake profiles.</p>											
+											<i class="fa fa-home" aria-hidden="true"></i>
+											<p><strong>Listings</strong></p>
+											<p>Look for the kind of place you can call home!</p>
 										</div>
 										<div class="cs-md-sub-seperation col-xs-12 col-sm-6 col-md-3 text-xs-center">
 											<i class="fa fa-comments-o" aria-hidden="true"></i>
-											<p><strong>Chat + Messenging</strong></p>
-											<p>Chat or privataly message your future roommates!</p>											
-										</div>											
+											<p><strong>Forums</strong></p>
+											<p>Want to just chat and probe potential places you want to live? Let's do it!</p>
+										</div>																					
 										<div class="cs-md-sub-seperation col-xs-12 col-sm-6 col-md-3 text-xs-center">
-											<i class="fa fa-home" aria-hidden="true"></i>
-											<p><strong>Listing</strong></p>
-											<p>Already decided on a roommmate? Great! Now go look for your home away from home!</p>											
-										</div>															
+											<i class="fa fa-money" aria-hidden="true"></i>
+											<p><strong>Rental Payment</strong></p>
+											<p>Pay your rent easily. Credit or checking accepted!</p>											
+										</div>
 									</div>										
 									</div>
 								</div>
@@ -117,32 +119,16 @@
 
 
 
-					<!-- Findapea Forum Listing Intro -->
-					<div class="row">
-						<div class="index-forum-intro cs-both-seperation cs-sub-fullpage-pad">
-							<div class="index-forum-intro-container center small-wrap">
-								<p class="text-xs-center cs-seperation title-header">
-									Forum Discussion
-								</p>
-
-								<p class="text-xs-center cs-seperation">Bad timing? Just can't find the right roommate to let go of their previous relationship? Screw it! Discuss it, interact with everybody maybe you'll find your match there!</p>								
-
-								<img src="/img/forum.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-
 					<!-- Start Here Module -->
 					<div class="row">
-						<div class="index-profile-start-here">
+						<div class="index-profile-start-here cs-both-seperation">
 							<div class="index-profile-start-here-container">
 
 								<div class="index-profile-start-here-image">
 									<img src="/img/start-here.jpg" alt="">	
 								</div>
 
-								<p class="cs-sub-seperation index-search-bar-title text-xs-center">Your roommate search<br>ends here!</p>
+								<p class="cs-seperation index-search-bar-title text-xs-center">Connect with us<br>Start here</p>
 								<div class="index-profile-start-here-button text-xs-center">
 									<button><a href="/registration.php">Sign up</a></button>
 								</div>
@@ -152,11 +138,27 @@
 						</div>
 					</div>
 
-					
+
+					<!-- Findapea City Intro -->
+<!-- 					<div class="row">
+						<div class="index-city-intro cs-both-seperation">
+							<div class="index-city-intro-container center small-wrap">
+								<p class="text-xs-center cs-seperation title-header">
+									The Cities We Cover
+								</p>
+
+								</div>
+						</div>
+					</div>		 -->						
+
+
+
 					<!-- Instagram Module -->
 					<div class="index-social-media cs-both-seperation">
 						<div class="cs-md-sub-seperation text-xs-center">
-							<h2 class="cs-seperation">follow us on instagram <a href="https://www.instagram.com/findapea">@findapea</a></h2>
+							<p class="text-xs-center cs-seperation title-header">
+								<a href="https://www.instagram.com/findapea">@findapea</a>
+							</p>
 					<!-- 		<ul class="cs-sub-seperation">
 								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -200,6 +202,37 @@
 
 						</div>
 					</div>
+
+
+					<!-- Findapea Latest Blog -->
+					<div class="row">
+						<div class="index-blog cs-both-seperation">
+							<div class="index-blog-container center small-wrap">
+								<p class="text-xs-center cs-seperation title-header">
+									Latest Blog
+								</p>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="cs-md-sub-seperation col-xs-12 col-sm-4 text-xs-center">
+											<img src="/img/blog1.jpg">
+											<p><strong>Housing Market</strong></p>
+											<p>Is it a good time to buy a house?</p>
+										</div>
+										<div class="cs-md-sub-seperation col-xs-12 col-sm-4 text-xs-center">
+											<img src="/img/blog2.jpg">
+											<p><strong>Rentals Uprise</strong></p>
+											<p>Renting is booming!</p>
+										</div>
+										<div class="cs-md-sub-seperation col-xs-12 col-sm-4 text-xs-center">
+											<img src="/img/blog3.jpg">
+											<p><strong>Roommates</strong></p>
+											<p>The stats will blow your mind!</p>
+										</div>																					
+									</div>										
+									</div>
+								</div>
+						</div>
+					</div>										
 
 
 

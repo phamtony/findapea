@@ -23,9 +23,9 @@
 				<li class="findapea-header-left-menu pull-xs-left">
 					<ul class="list-unstyled clearfix hidden-lg-down">
 						<li class="header-left-selection"><span>Roommate Search</span></li>
-						<li><span>Listing Search</span></li>
+						<li><span>Listings</span></li>
 						<li><span>Forums</span></li>
-						<li><span>Create Listing</span></li>
+						<li><span>Blog</span></li>
 					</ul>					
 				</li>
 
