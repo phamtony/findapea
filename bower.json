@@ -25,6 +25,8 @@
     "jquery_lazyload": "^1.9.1",
     "freewall": "^1.0.5",
     "fancyBox": "~2.1.5",
-    "jquery-hoverintent": "jquery-hoverIntent#^1.8.1"
+    "jquery-hoverintent": "jquery-hoverIntent#^1.8.1",
+    "matchHeight": "^0.7.0",
+    "jquery-smartresize": "*"
   }
 }

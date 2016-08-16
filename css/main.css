@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .light-gray-border-color { color: #ededed; }
 .orange { color: #ffa500; }
 .las-orange { color: #ff9204; }
-.green  { color: #rgb(0, 104, 56); }
+.green  { color: rgb(0, 104, 56); }
 .gray { color: #969696;}
 .cs-red { color:#C50808;}
 .hotpink { color: #EC008C;}
@@ -821,38 +821,78 @@ p.index-search-bar-title {
 **  Listing Page                                   **
 **                                                 **
 *****************************************************/
+.findapea-listing-page {
+	border-bottom: 2px solid #cccccc;
+}
 .findapea-listing-page-container {
 	font-size: .85em;
 }
 .listing-page-query-filter {
 	border-bottom: 1px solid #cccccc;
 }
+.listing-page-query-filter-search-container form {
+	position: relative;
+}
 .listing-page-query-filter-search-container input {
 	width: 100%;
 	border: 1px solid #dbdbdb;
 	height: 40px;
-	padding: 0 15px;
+	padding: 0 100px 0 40px;
 }
-.listing-page-map-container > img {
-	width: 100%;
+.listing-page-query-filter-search-container i {
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	font-size: 1.5em;
+}
+.listing-page-query-profile {
+	overflow: auto;
 }
 .listing-page-query-profile-section-container {
 	border-bottom: 1px solid #dbdbdb;
 }
 .listing-page-query-profile-section img {
 	width: 100%;
-	border: 1px solid black;
+	border: 1px solid #cccccc;
 }
 .listing-page-query-profile-section-factlist {
 	margin: 10px 0;
 }
-.listing-page-query-profile-section-filterlist > li,
+.listing-page-query-profile-section-container h5,
 .listing-page-query-profile-section-factlist > li {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-
+.listing-page-query-listing-picture-container {
+	position: relative;
+}
+.listing-page-map-container > img {
+	width: 100%;
+}
+.search-bar-filter {
+	border: 1px solid #dbdbdb;
+	padding: 5px 15px;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	cursor: pointer;
+}
+.search-bar-filter:hover {
+	background: #dbdbdb;
+	color: white;
+}
+.profile-listing-city {
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	color: white;
+	bottom: 0;
+	padding: 0 5px;
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
 /****************************************************
 **                                                 **
 **  Profile Page                                   **
@@ -935,27 +975,7 @@ p.index-search-bar-title {
 	}	
 }
 
-/****************************************************
-**                                                 **
-**  Chat Page                                      **
-**                                                 **
-*****************************************************/
-/*Temp Styling DELETE WHEN DEVELOPMENT*/
-.findapea-chatroom-page-container .listing-page-query-profile-section-factlist,
-.findapea-chatroom-page-container .listing-page-query-profile-section-filterlist,
-.findapea-chatroom-page-container .listing-page-query-profile-section a > p {
-	display: none;
-}
-.findapea-chatroom-page-container .listing-page-query-profile-section p.chat-show {
-	display: block !important;
-}
-.findapea-chatroom-page-container .listing-page-query-profile-section:first-child {
-	background-color: #f7f7f7;
-}
-/*Normal Styling*/
-.findapea-chatroom-list {
-	border-right: 1px solid #cccccc;
-}
+
 
 
 

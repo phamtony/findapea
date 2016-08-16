@@ -7,12 +7,17 @@
 	<script type="text/javascript" src="/bower_components/freewall/freewall.js"></script>
 	<script type="text/javascript" src="/bower_components/fancyBox/source/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="/bower_components/jquery-hoverintent/jquery.hoverIntent.js"></script>
+	<script type="text/javascript" src="/bower_components/matchHeight/dist/jquery.matchHeight-min.js"></script>	
+	<script type="text/javascript" src="/bower_components/jquery-smartresize/jquery.debouncedresize.js"></script>		
 
 	<!-- Custom JS -->
 	<script type="text/javascript" src="/js/main.js"></script>
 
 
 	<script>
+	$(document).ready(function() {
 		PeaProfile.photoAlbum();
 		PeaProfile.albumFancybox();
+		ListingUser.heightAdjust();
+	});
 	</script>

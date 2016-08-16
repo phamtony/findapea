@@ -29,28 +29,28 @@
 				<div class="container-fluid">
 					<div class="row no-gutter">
 						
-						<div class="col-xs-12 col-md-6">
+						<div class="col-xs-12 col-md-7 col-lg-6">
 							<div class="listing-page-query">
 								<div class="listing-page-query-container">
 									
 									<div class="listing-page-query-filter cs-both-sub-seperation cs-sub-fullpage-pad">
 										<div class="listing-page-query-filter-container">
 											
-											<div class="listing-page-query-filter-search cs-sub-seperation">
+											<div class="listing-page-query-filter-search">
 												<div class="listing-page-query-filter-search-container">
-													<input type="text">
+													<form action="/">
+														<input type="text">
+														<i class="fa fa-search" aria-hidden="true"></i>
+														<span class="gray search-bar-filter">
+															Filter
+														</span>
+													</form>
 												</div>
 											</div>
 
 											<div class="list-page-query-filter-choice">
 												<div class="list-page-query-filter-choice-container">
-													<input type="radio"> Chill
-													<input type="radio"> Chill
-													<input type="radio"> Chill
-													<input type="radio"> Chill
-													<input type="radio"> Chill
-													<input type="radio"> Chill
-													<input type="radio"> Chill
+
 												</div>
 											</div>
 
@@ -72,7 +72,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 hidden-sm-down">
+						<div class="col-md-5 col-lg-6 hidden-sm-down">
 							<div class="listing-page-map">
 								<div class="listing-page-map-container">
 									<img src="/img/listing-map.jpg" alt="">
@@ -90,9 +90,6 @@
 		</div>		
 	</main>
 
-	<footer>
-		<?php include('_footer.inc.php');?>
-	</footer>
 
 	<?php include('_js.inc.php');?>
 
