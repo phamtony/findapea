@@ -50,3 +50,31 @@ var ListingUser = (function() {
 	return methods;
 
 })();
+
+
+var ListingPlaceUser = (function() {
+
+	var methods = {
+
+		heightAdjust: function() {
+			$('.listing-place-page-map-container img').css({
+				'height': $(window).height() - 60
+			});			
+			$('.listing-page-query-profile').css({
+				'height': $(window).height() - 145
+			});						
+			$(window).on('debouncedresize', function( event ) {
+				$('.listing-place-page-map-container img').css({
+					'height': $(window).height() - 60
+				});
+				$('.listing-page-query-profile').css({
+					'height': $(window).height() - 130
+				});					
+			});			
+		}
+
+	}
+
+	return methods;
+
+})();

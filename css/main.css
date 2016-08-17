@@ -847,6 +847,7 @@ p.index-search-bar-title {
 }
 .listing-page-query-profile {
 	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 }
 .listing-page-query-profile-section-container {
 	border-bottom: 1px solid #dbdbdb;
@@ -899,6 +900,48 @@ p.index-search-bar-title {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+}
+/****************************************************
+**                                                 **
+**  Listing Place Page                             **
+**                                                 **
+*****************************************************/
+.findapea-listing-place-page {
+	border-bottom: 2px solid #cccccc;
+}
+.findapea-listing-place-page-container {
+	font-size: .85em;
+}
+.listing-place-page-query-filter {
+	border-bottom: 1px solid #cccccc;
+}
+.listing-place-page-query-filter-search-container form {
+	position: relative;
+}
+.listing-place-page-query-filter-search-container input {
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	height: 40px;
+	padding: 0 100px 0 40px;
+}
+.listing-place-page-query-filter-search-container i {
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	font-size: 1.5em;
+}
+.listing-place-page-query {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.listing-place-page-query-picture-container img {
+	width: 100%;
+}
+
+
+/*Temp Styling until the real map is in place*/
+.listing-place-page-map-container > img {
+	width: 100%;
 }
 /****************************************************
 **                                                 **

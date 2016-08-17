@@ -19,5 +19,6 @@
 		PeaProfile.photoAlbum();
 		PeaProfile.albumFancybox();
 		ListingUser.heightAdjust();
+		ListingPlaceUser.heightAdjust();
 	});
 	</script>

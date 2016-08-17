@@ -48,12 +48,6 @@
 												</div>
 											</div>
 
-											<div class="list-page-query-filter-choice">
-												<div class="list-page-query-filter-choice-container">
-
-												</div>
-											</div>
-
 										</div>
 									</div>
 
@@ -75,7 +69,7 @@
 						<div class="col-md-5 col-lg-6 hidden-sm-down">
 							<div class="listing-page-map">
 								<div class="listing-page-map-container">
-									<img src="/img/listing-map.jpg" alt="">
+									<img src="/img/user-listing-map.jpg" alt="">
 								</div>
 							</div>
 						</div>
