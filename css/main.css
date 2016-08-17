@@ -853,6 +853,12 @@ p.index-search-bar-title {
 }
 .listing-page-query-profile-section img {
 	width: 100%;
+}
+.listing-page-query-profile-picture img {
+	border: 1px solid #cccccc;
+}
+.listing-page-query-listing-picture-container {
+	position: relative;
 	border: 1px solid #cccccc;
 }
 .listing-page-query-profile-section-factlist {
@@ -864,12 +870,13 @@ p.index-search-bar-title {
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-.listing-page-query-listing-picture-container {
-	position: relative;
-}
+
+/*Temp Styling until the real map is in place*/
 .listing-page-map-container > img {
 	width: 100%;
 }
+
+
 .search-bar-filter {
 	border: 1px solid #dbdbdb;
 	padding: 5px 15px;
