@@ -57,6 +57,7 @@
 
 
 											<?php include('_profileInListing.inc.php');?>		
+											<?php include('_pagination.inc.php');?>		
 											
 
 										</div>

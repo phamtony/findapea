@@ -33,7 +33,7 @@ var ListingUser = (function() {
 				'height': $(window).height() - 60
 			});			
 			$('.listing-page-query-profile').css({
-				'height': $(window).height() - 145
+				'height': $(window).height() - 130
 			});						
 			$(window).on('debouncedresize', function( event ) {
 				$('.listing-page-map-container img').css({
@@ -60,14 +60,14 @@ var ListingPlaceUser = (function() {
 			$('.listing-place-page-map-container img').css({
 				'height': $(window).height() - 60
 			});			
-			$('.listing-page-query-profile').css({
-				'height': $(window).height() - 145
+			$('.listing-place-page-ads').css({
+				'height': $(window).height() - 130
 			});						
 			$(window).on('debouncedresize', function( event ) {
 				$('.listing-place-page-map-container img').css({
 					'height': $(window).height() - 60
 				});
-				$('.listing-page-query-profile').css({
+				$('.listing-place-page-ads').css({
 					'height': $(window).height() - 130
 				});					
 			});			

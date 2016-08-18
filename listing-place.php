@@ -56,11 +56,12 @@
 									</div>
 
 
-									<div class="listing-place-page-query">
-										<div class="listing-place-page-query-container cs-sub-fullpage-mar cs-both-sub-section">
+									<div class="listing-place-page-ads">
+										<div class="listing-place-page-ads-container cs-sub-fullpage-mar cs-both-sub-section">
 											<div class="row">
 
 												<?php include('_placeInListing.inc.php');?>		
+												<?php include('_pagination.inc.php');?>		
 											
 											</div>
 										</div>

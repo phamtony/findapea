@@ -930,12 +930,21 @@ p.index-search-bar-title {
 	left: 12px;
 	font-size: 1.5em;
 }
-.listing-place-page-query {
+.listing-place-page-ads {
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
-.listing-place-page-query-picture-container img {
+.listing-place-page-ads-picture-container div {
+	position: relative;
+}
+.listing-place-page-ads-picture-container img {
 	width: 100%;
+}
+.listing-place-page-ads-picture-container p {
+	padding: 5px 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;	
 }
 
 
@@ -943,6 +952,20 @@ p.index-search-bar-title {
 .listing-place-page-map-container > img {
 	width: 100%;
 }
+
+
+.listing-place-page-overlay-image {
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	color: white;
+	bottom: 0;
+	padding: 10px;
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 /****************************************************
 **                                                 **
 **  Profile Page                                   **
@@ -1027,7 +1050,20 @@ p.index-search-bar-title {
 
 
 
-
+/****************************************************
+**                                                 **
+**  Universal Modules                              **
+**                                                 **
+*****************************************************/
+/****************************************************
+**  Pagination                                     **
+*****************************************************/
+.findapea-pagination-container span {
+	padding: 5px 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin: 0 3px;
+}
 
 
 
