@@ -1064,7 +1064,9 @@ p.index-search-bar-title {
 	border-radius: 2px;
 	margin: 0 3px;
 }
-
+.findapea-pagination-container a {
+	padding: 5px 0;
+}
 
 
 

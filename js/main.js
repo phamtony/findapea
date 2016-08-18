@@ -30,17 +30,17 @@ var ListingUser = (function() {
 
 		heightAdjust: function() {
 			$('.listing-page-map-container img').css({
-				'height': $(window).height() - 60
+				'height': $(window).height() - 65
 			});			
 			$('.listing-page-query-profile').css({
-				'height': $(window).height() - 130
+				'height': $(window).height() - 135
 			});						
 			$(window).on('debouncedresize', function( event ) {
 				$('.listing-page-map-container img').css({
-					'height': $(window).height() - 60
+					'height': $(window).height() - 65
 				});
 				$('.listing-page-query-profile').css({
-					'height': $(window).height() - 130
+					'height': $(window).height() - 135
 				});					
 			});			
 		}
@@ -58,17 +58,17 @@ var ListingPlaceUser = (function() {
 
 		heightAdjust: function() {
 			$('.listing-place-page-map-container img').css({
-				'height': $(window).height() - 60
+				'height': $(window).height() - 65
 			});			
 			$('.listing-place-page-ads').css({
-				'height': $(window).height() - 130
+				'height': $(window).height() - 135
 			});						
 			$(window).on('debouncedresize', function( event ) {
 				$('.listing-place-page-map-container img').css({
-					'height': $(window).height() - 60
+					'height': $(window).height() - 65
 				});
 				$('.listing-place-page-ads').css({
-					'height': $(window).height() - 130
+					'height': $(window).height() - 135
 				});					
 			});			
 		}
