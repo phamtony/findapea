@@ -1,7 +1,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt2.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
@@ -20,7 +20,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
@@ -39,7 +39,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt3.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
@@ -58,7 +58,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt4.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
@@ -77,7 +77,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt5.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
@@ -96,7 +96,7 @@
 <div class="col-xs-12 col-sm-6">
 	<div class="listing-place-page-ads-picture cs-seperation">
 		<div class="listing-place-page-ads-picture-container">
-			<a href="/apt-profile.php">
+			<a href="/place-profile.php">
 				<div>
 					<img src="/img/apt6.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
