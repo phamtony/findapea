@@ -27,6 +27,7 @@
     "fancyBox": "~2.1.5",
     "jquery-hoverintent": "jquery-hoverIntent#^1.8.1",
     "matchHeight": "^0.7.0",
-    "jquery-smartresize": "*"
+    "jquery-smartresize": "*",
+    "ScrollToFixed": "scrolltofixed#^1.0.8"
   }
 }

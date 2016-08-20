@@ -32,32 +32,38 @@ var PlaceProfile = (function() {
 			$('.findapea-place-profile-page-images-container').slick({
 			  slidesToShow: 3,
 			  centerMode: true,
+  			centerPadding: '60px',			  
 			  infinite: true,
 			  lazyLoad: 'ondemand',
 			  prevArrow: '.photoalbum-prev',
 			  nextArrow: '.photoalbum-next',
-
-
-
-  responsive: [
-    {
-      breakpoint: 767,
-      settings: {
-        arrows: false,
-        slidesToShow: 2
-      }
-    },
-    {
-      breakpoint: 543,
-      settings: {
-        slidesToShow: 1
-      }
-    }
-  ]
-
-
+			  responsive: [
+		    {
+		      breakpoint: 767,
+		      settings: {
+		        arrows: false,
+		        slidesToShow: 2
+		      }
+		    },
+		    {
+		      breakpoint: 543,
+		      settings: {
+		        slidesToShow: 1
+		      }
+		    }
+			  ]
 
 			});
+		},
+
+		scrollTofixed: function() {
+			$('#findapea_place_profile_box').scrollToFixed({
+				marginTop: 30,
+				minWidth: 767,
+				removeOffsets: true,
+				// limit is a hack, fix later
+				limit: $('#findapea_place_profile_box').offset().top + 790
+			});				
 		}
 
 	}
