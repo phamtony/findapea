@@ -508,8 +508,15 @@ i.floating-arrow {
 	background-color: white;	
 	color: #7994A7;
 }
-
-
+.btn-green-white {
+	border: 2px solid rgb(0, 104, 56);
+	background-color: rgb(0, 104, 56);
+	color: white;
+}
+.btn-green-white:hover {
+	background-color: white;
+	color: rgb(0, 104, 56);
+}
 
 /****************************************************
 **                                                 **
@@ -1048,8 +1055,45 @@ p.index-search-bar-title {
 	}	
 }
 
-
-
+/****************************************************
+**                                                 **
+**  Place Profile Page                             **
+**                                                 **
+*****************************************************/
+.findapea-place-profile-page-images {
+	position: relative;
+}
+.findapea-place-profile-page-images-container div img {
+	width: 100%;
+}
+.findapea-place-profile-page-images-container > div > div > div {
+	padding: 0 3px;
+}
+.findapea-place-profile-page-terms {
+	background: #f5f5f5;
+}
+.findapea-place-profile-page-main-content button {
+	width: 100%;
+	padding: 4px 0;
+	font-size: .85em;
+}
+.findapea-place-profile-page-user-info-container {
+	font-size: .85em;
+}
+.findapea-place-profile-page-user-info {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+.findapea-place-profile-page-user-info-profile-pic {
+	width: 150px;
+}
+.findapea-place-profile-page-user-info-profile-pic-container {
+	padding: 4px;
+	border: 1px solid #dbdbdb;
+}
+.findapea-place-profile-page-user-info-profile-pic-container img {
+	width: 100%;
+}
 /****************************************************
 **                                                 **
 **  Universal Modules                              **

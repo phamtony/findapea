@@ -95,7 +95,7 @@
 											<h6 class="cs-both-sub-seperation cs-sub-fullpage-pad text-xs-center">I have a room!</h6>
 											<div class="profile-listing-room">
 												<a href="/listing-user.php">
-													<img src="/img/apt.jpg" alt="">
+													<img src="/img/apt1.jpg" alt="">
 												</a>
 												<p><i class="fa fa-location-arrow" aria-hidden="true"></i> Los Angeles, CA</p>
 												<p><i class="fa fa-bed" aria-hidden="true"></i> 2 Bedrooms</p>

@@ -20,5 +20,6 @@
 		PeaProfile.albumFancybox();
 		ListingUser.heightAdjust();
 		ListingPlaceUser.heightAdjust();
+		PlaceProfile.slickCarousel();
 	});
 	</script>

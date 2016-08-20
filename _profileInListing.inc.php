@@ -26,7 +26,7 @@
 			<div class="listing-page-query-listing-picture hidden-md-down col-lg-4 col-xl-3">
 				<div class="listing-page-query-listing-picture-container">
 					<a href="/place-profile.php">
-						<img src="/img/apt.jpg">
+						<img src="/img/apt1.jpg">
 						<span class="profile-listing-city">Los Angeles, CA</span>			
 					</a>	
 				</div>

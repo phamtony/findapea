@@ -22,7 +22,7 @@
 		<div class="listing-place-page-ads-picture-container">
 			<a href="/place-profile.php">
 				<div>
-					<img src="/img/apt.jpg" alt="">
+					<img src="/img/apt1.jpg" alt="">
 					<span class="listing-place-page-overlay-image">
 						<strong>$900</strong> <br>
 						Hollywood, CA

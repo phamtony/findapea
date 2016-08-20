@@ -24,6 +24,50 @@ var PeaProfile = (function() {
 })();
 
 
+var PlaceProfile = (function() {
+
+	var methods = {
+
+		slickCarousel: function() {
+			$('.findapea-place-profile-page-images-container').slick({
+			  slidesToShow: 3,
+			  centerMode: true,
+			  infinite: true,
+			  lazyLoad: 'ondemand',
+			  prevArrow: '.photoalbum-prev',
+			  nextArrow: '.photoalbum-next',
+
+
+
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        arrows: false,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 543,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+
+
+
+			});
+		}
+
+	}
+
+	return methods;
+
+})();
+
+
+
 var ListingUser = (function() {
 
 	var methods = {
